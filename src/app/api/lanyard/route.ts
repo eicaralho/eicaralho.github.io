@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const apiUrl = 'https://api.lanyard.rest/v1/users/806285262459764776';
-
+  const apiUrl = 'https://api.lanyard.rest/v1/users/396381376020086799'
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
